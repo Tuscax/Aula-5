@@ -1,5 +1,43 @@
-.name, .email, .password, .date {
-    display: block;
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
-body {size: 175%;}
 
+.name,
+.email,
+.password,
+.date {
+    display: block;
+
+}
+
+body {
+
+    background-color: rgb(115, 196, 115);
+    color: #fff;
+
+}
+
+main {
+    background-color: yellowgreen;
+    padding: 20px;
+    width: 40%;
+    margin: 10% auto 0;
+}
+
+.form-login input,
+.form-cadastro input,
+textarea,
+select {
+    width: 100%;
+    border-radius: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: min-content;
+}

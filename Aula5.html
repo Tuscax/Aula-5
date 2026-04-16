@@ -7,12 +7,15 @@
     <title>formulario </title>
     <link rel="stylesheet" href="style.css">
 </head>
+<style>
+
+</style>
 
 <body>
     <main>
         <h1> Cadastro de Desenvolvedor</h1>
 
-        <form>
+        <form class="form-cadastro">
 
             <Label for="name">Nome completo</Label>
             <div class="name">
@@ -29,17 +32,17 @@
             </div>
             <legend>Gênero</legend>
             <div>
-            <select name="gender" id="gender">
-                <option >Selecione</option>
-                <option value="M">Masculino</option>
-                <option value="F">Feminino</option>
-            </select>
-          </div>
+                <select name="gender" id="gender">
+                    <option>Selecione</option>
+                    <option value="M">Masculino</option>
+                    <option value="F">Feminino</option>
+                </select>
+            </div>
             <label for="password"> Senha</label>
             <div class="password">
                 <input type="password" name="password" id="password" placeholder="Digite Senha">
             </div>
-            
+
             <div class="stacks">
                 <legend>Stacks</legend>
                 <input type="checkbox" name="html" id="html">
@@ -49,14 +52,16 @@
                 <input type="checkbox" name="js" id="js">
                 <label for="js">js</label>
             </div>
-            <legend>Possui experiência?</legend>
-            <input type="radio" name="xp" id="yes">
-            <label for="yes">Sim</label>
-            <input type="radio" name="xp" id="">
-            <label for="no">não</label>
-            <legend>Se sim descreva</legend>
-            <textarea name="descxp" id="descxp" cols="40" rows="10"></textarea>
-            <Div><button type="submit">Cadastrar</button></Div>
+            <div class="Exp">
+                <legend>Possui experiência?</legend>
+                <input type="radio" name="xp" id="yes">
+                <label for="yes">Sim</label>
+                <input type="radio" name="xp" id="">
+                <label for="no">não</label>
+                <legend>Se sim descreva</legend>
+                <textarea name="descxp" id="descxp" cols="40" rows="10"></textarea>
+                <Div><button type="submit">Cadastrar</button></Div>
+        </div>
         </form>
         <p>Possui cadastro? Faça o <a href="Login.html">login</a> </p>
     </main>
