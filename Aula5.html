@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1> Cadastro de Desenvolvedor</h1>
+
+        <form>
+
+            <Label for="name">Nome completo</Label>
+            <div class="name">
+                <input id="name" type="text" name="name" placeholder="Digite seu Nome">
+            </div>
+
+            <label for="email">Email</label>
+            <div class="email">
+                <input type="email" name="email" id="email" placeholder="Digite Email">
+            </div>
+            <label for="nasc">Data de nascimento</label>
+            <div class="Date">
+                <input type="date" name="datenasc" id="nasc">
+            </div>
+            <legend>Gênero</legend>
+            <div>
+            <select name="gender" id="gender">
+                <option >Selecione</option>
+                <option value="M">Masculino</option>
+                <option value="F">Feminino</option>
+            </select>
+          </div>
+            <label for="password"> Senha</label>
+            <div class="password">
+                <input type="password" name="password" id="password" placeholder="Digite Senha">
+            </div>
+            
+            <div class="stacks">
+                <legend>Stacks</legend>
+                <input type="checkbox" name="html" id="html">
+                <label for="html">HTML</label>
+                <input type="checkbox" name="css" id="css">
+                <label for="css">CSS</label>
+                <input type="checkbox" name="js" id="js">
+                <label for="js">js</label>
+            </div>
+            <legend>Possui experiência?</legend>
+            <input type="radio" name="xp" id="yes">
+            <label for="yes">Sim</label>
+            <input type="radio" name="xp" id="">
+            <label for="no">não</label>
+            <legend>Se sim descreva</legend>
+            <textarea name="descxp" id="descxp" cols="40" rows="10"></textarea>
+            <Div><button type="submit">Cadastrar</button></Div>
+        </form>
+        <p>Possui cadastro? Faça o <a href="Login.html">login</a> </p>
+    </main>
+</body>
+
+</html>
